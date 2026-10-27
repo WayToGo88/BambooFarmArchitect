@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "bamboo_farm_architect",
+  "version": "${version}",
+  "name": "Bamboo Farm Architect",
+  "description": "Excavation planner and bamboo-farm construction assistant with material checks.",
+  "authors": ["OpenAI"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.bamboofarmarchitect.BambooFarmArchitectClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
